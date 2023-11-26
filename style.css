@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.texto {
+    text-align: center;
+    flex: 1; /* Ocupa o espaço restante */
+    padding: 20px; /* Adiciona algum espaço ao redor do texto (opcional) */
+}
+
+.imagem {
+    text-align: right;
+    padding: 20px; /* Adiciona algum espaço ao redor da imagem (opcional) */
+}
