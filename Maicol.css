@@ -6,28 +6,27 @@
 
 #menu {
     list-style: none;
-    padding: 25px;
+    padding: 2%;
     background: linear-gradient(to bottom, #00ff00, rgb(0, 0, 0));
     text-align: center; 
 }
 
 #menu li {
     display: inline-block;
-    margin-right: 140px; 
+    margin-right: 5%; 
 }
 
 #menu li a {
     color: #FFFFFF;
     text-decoration: none;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 1%;
 }
 
 #menu li:last-child {
     margin-right: 0;
 }
 #menu li.logo-button {
-    margin-right: 10px;
+    padding: 0.5%;
 }
 #menu li.logo-button a {
     padding: 10px;
@@ -36,9 +35,6 @@ body{
     text-align: center;
     background-color: black;
     color: #FFFFFF;
-}
-p{
-    font-size: 30px;
 }
 .container {
     display: flex;
@@ -59,15 +55,18 @@ table{
         background-color: black;
         border-style:none;   
 }
-#final{
-    padding: 150px;
-    text-align: center; 
-}
 a{
     color:cadetblue;
 }
+#final{
+    text-align: center;
+}
 footer {
-    background: linear-gradient(to top, #00ff00, rgb(0, 0, 0));
-    padding: 90px;
+    background: linear-gradient(to top, #00ff00,rgb(0, 0, 0));
+    padding: 5%;
     text-align: bottom;
 } 
+p{
+    font-size: 2vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

@@ -6,27 +6,26 @@
 
 #menu {
     list-style: none;
-    padding: 25px;
+    padding: 2%;
     text-align: center; 
 }
 
 #menu li {
     display: inline-block;
-    margin-right: 140px; 
+    margin-right: 5%; 
 }
 
 #menu li a {
     color: #FFFFFF;
     text-decoration: none;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 1%;
 }
 
 #menu li:last-child {
     margin-right: 0;
 }
 #menu li.logo-button {
-    margin-right: 10px;
+    padding: 0.5%;
 }
 #menu li.logo-button a {
     padding: 10px;
@@ -35,11 +34,6 @@ body{
     text-align: center;
     background: linear-gradient(45deg, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D);
     color: #FFFFFF;
-}
-p{
-    font-size: 30px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .container {
     display: flex;
@@ -66,8 +60,14 @@ tr{
 h1{
     color: black;
 }
+#final{
+    text-align: center;
+}
 footer {
-    color: #fff;
-    padding: 150px;
+    padding: 5%;
     text-align: bottom;
+} 
+p{
+    font-size: 2vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
